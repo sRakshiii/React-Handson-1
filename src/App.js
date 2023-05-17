@@ -14,7 +14,7 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <h2>Styling using Functional and Class Component</h2>
+        <h3>Styling using Functional and Class Component</h3>
         <button onClick={()=>this.setState({functionClick: !this.state.functionClick})} className="funBtn">To see styling in Functional component</button>
         <button onClick={()=>this.setState({classClick: !this.state.classClick})} className="classBtn">To see styling in Functional component</button>
 
