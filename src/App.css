@@ -1,5 +1,6 @@
 body{
- background-color:lightcyan;
+ background-image:linear-gradient(rgb(191, 245, 245),rgb(238, 170, 170),rgb(184, 238, 238));
+ background-attachment: fixed;
 }
 
 .App {
